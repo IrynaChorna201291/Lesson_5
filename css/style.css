@@ -1,0 +1,327 @@
+/* ====================== ШРИФТИ =============================== */
+
+/*----------------- Підключення шрифтів ----------------------- */
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:600,700,800,900,600italic,700italic,800italic&display=swap&subset=cyrillic-ext");
+
+@font-face {
+	font-family: "Alumni Sans Collegiate One";
+	src: url("../fonts/AlumniSansCollegiateOne-Regular.woff2") format("woff2"), url("../fonts/AlumniSansCollegiateOne-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Alumni Sans Collegiate One";
+	src: url("../fonts/AlumniSansCollegiateOne-Italic.woff2") format("woff2"), url("../fonts/AlumniSansCollegiateOne-Italic.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: italic;
+}
+.wrapper {
+}
+.header {
+	padding: 15px;
+}
+.header-title {
+}
+.header-subtitle {
+}
+.header-text {
+}
+.bold {
+}
+.menu {
+}
+.menu-list {
+}
+.menu-item {
+}
+.menu-link {
+}
+.menu-sublist {
+}
+.menu-subitem {
+}
+.menu-sublink {
+}
+.main {
+}
+.content {
+	padding: 20px;
+}
+.content-text {
+}
+.block-lough {
+}
+.block-lough-title {
+}
+.image {
+}
+.block-lough-insta {
+}
+.cursive {
+}
+.block-lough-text {
+}
+.block-cave {
+}
+.block-cave-title {
+}
+.block-cave-insta {
+}
+.block-cave-text {
+}
+.block-tunnel {
+}
+.block-tunnel-title {
+}
+.block-tunnel-insta {
+}
+.block-tunnel-text {
+}
+.block-white-stones {
+}
+.block-white-stones-title {
+}
+.block-white-stones-insta {
+}
+.block-white-stones-text {
+}
+.block-bacota {
+}
+.block-bacota-title {
+}
+.block-bacota-insta {
+}
+.block-bacota-text {
+}
+.block-canyon {
+}
+.block-canyon-title {
+}
+.block-canyon-insta {
+}
+.block-canyon-text {
+}
+.footer {
+	padding: 15px;
+}
+
+/* ========== */
+html {
+	font-size: 18px;
+}
+body {
+	line-height: 1;
+	font-family: "Alumni Sans Collegiate One", sans-serif;
+	color: #341b1b;
+	background-color: #eae1e7;
+}
+h1 {
+	font-family: "Work Sans", sans-serif;
+	font-style: italic;
+	font-weight: 800;
+	font-size: 30px;
+	color: #312c2c;
+	line-height: calc(35 / 30);
+	text-shadow: 2px -1px 2px #1a8cbd, -1px 1px 2px #d3dd12;
+	margin: 0px 0px 25px 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Work Sans", sans-serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-decoration: underline;
+	letter-spacing: 2px;
+	text-align: center;
+	margin: 0px 0px 10px 0px;
+}
+h2 {
+	font-size: 27px;
+	color: #901d55;
+	font-weight: 700;
+	text-shadow: 2px 1px 1px #47a8d2, -1px 1px 2px #16b61e;
+	margin: 0px 0px 20px 0px;
+}
+h3.header-subtitle {
+	font-style: italic;
+	font-weight: 600;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: capitalize;
+	text-align: left;
+}
+.header > h1 + h3 ~ p {
+	text-align: right;
+	font-weight: 700;
+	color: #adff2f;
+	margin: 0px 0px 10px 0px;
+}
+.header > p.header-text + p {
+	color: #16b61e;
+}
+.header > p.header-text + p + p {
+	color: #69177d;
+	text-decoration: overline;
+}
+.header > h1 + h3 + p > span.bold.italic {
+	font-family: "Work Sans", sans-serif;
+	font-style: italic;
+	font-weight: 700;
+	color: #5bd4d4;
+	text-decoration: underline;
+	letter-spacing: 3px;
+}
+.header > h1 + h3 + p + p > span.italic {
+	font-style: italic;
+	color: #c2599d;
+}
+div.image {
+	width: 400px;
+}
+div.image img {
+	max-width: 100%;
+}
+div.content > div > h2 + div + p > span.cursive {
+	font-style: italic;
+	font-size: 20px;
+	letter-spacing: 3px;
+	text-align: center;
+	text-decoration: overline;
+	text-transform: uppercase;
+	text-shadow: -2px 3px 2px #37748d, 1px 1px 1px #901d55;
+	color: #6495ed;
+}
+ul li {
+	margin: 0px 0px 5px 0px;
+}
+ul li.menu-item + li + li + li + li + li + li + li + li {
+	margin: 0px 0px 0px 0px;
+}
+ul li > a {
+	color: #5bd4d4;
+	line-height: calc(20 / 15);
+	letter-spacing: 3px;
+	font-size: 20px;
+}
+ul li + li + li + li > a {
+	color: #c2599d;
+	text-transform: uppercase;
+}
+ul li + li + li + li + li + li > a {
+	color: #dd6839;
+	text-transform: capitalize;
+}
+ul li > ul li > a.menu-sublink {
+	text-decoration: line-through;
+	color: rgba(70, 198, 20, 0.555);
+	font-size: 17px;
+	text-transform: lowercase;
+}
+ul li.menu-subitem {
+	margin: 0px 0px 3px 0px;
+}
+ul li.menu-subitem + li + li {
+	margin: 0px 0px 0px 0px;
+}
+div p.content-text {
+	font-family: "Work Sans", sans-serif;
+	font-weight: 900;
+	color: #651d7f;
+	margin: 0px 0px 20px 0px;
+}
+div > p + div {
+	font-family: "Work Sans", sans-serif;
+	font-weight: 800;
+	font-size: 21px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: rgba(91, 212, 212, 0.524);
+	word-spacing: 2px;
+	font-style: italic;
+}
+div > p + div > h2 + div + p {
+	color: #901d55;
+	font-style: normal;
+	text-transform: capitalize;
+	text-shadow: -1px -3px 1px rgb(94, 155, 23);
+}
+div > p + div.block-lough > h2 + div + p > span.cursive {
+	color: #34c627;
+	letter-spacing: 5px;
+}
+div.content > p ~ div {
+	margin: 0px 0px 30px 0px;
+	padding: 0px 10px;
+}
+div.content > div.block-canyon {
+	margin: 0px 0px 0px 0px;
+}
+div.image {
+	margin: 0px 0px 15px 0px;
+}
+.margin {
+	margin: 0px 0px 30px 0px;
+}
+p {
+	margin: 0px 0px 10px 0px;
+}
+div.block-lough > h2 + div + p + p + p + p {
+	margin: 0px 0px 0px 0px;
+}
+div.block-cave * {
+	margin: 0px 0px 40px 0px;
+}
+div.block-cave > h2 + div + p + p + p {
+	margin: 0px 0px 0px 0px;
+	color: #651d7f;
+}
+div.block-cave > h2 + div + p + p {
+	text-indent: 35px;
+	text-shadow: 2px 1px 3px #bd244c;
+	color: #34c627;
+}
+div.block-cave > h2 + div ~ p {
+	word-spacing: 15px;
+}
+div.block-tunnel > h2 + div + p + p + p {
+	text-transform: capitalize;
+	margin: 0px 0px 0px 0px;
+}
+div.block-tunnel > h2 + div + p + p {
+	text-transform: lowercase;
+	font-size: 10px;
+}
+div.block-white-stones > h2 + div + p + p {
+	margin: 0px 0px 0px 0px;
+}
+div.block-bacota > h2 + div + p + p {
+	font-family: "Work Sans", sans-serif;
+	color: #ba4680;
+	font-size: 40px;
+	margin: 0px 0px 0px 0px;
+	letter-spacing: 6px;
+	text-decoration: line-through;
+	font-style: italic;
+	font-weight: 700;
+}
+div.block-canyon > h2 + div + p + p + p {
+	font-family: "Work Sans", sans-serif;
+	font-weight: 800;
+	font-style: italic;
+	font-size: 25px;
+	letter-spacing: 4px;
+	color: #a0522d;
+	text-transform: uppercase;
+	margin: 0px 0px 0px 0px;
+}
+p.margin {
+	font-size: 15px;
+	letter-spacing: 7px;
+	color: #bdb76b;
+}
